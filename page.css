@@ -1,0 +1,468 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins";
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.navBarHeader, #buttonTop {
+	display: none;
+}
+
+.aboutMe {
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutMeWrapper {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.aboutMeParagraph {
+	font-size: 0.85em;
+	margin-bottom: 1em;
+	font-family: 'Avenir Next', Helevetica, sans-serif;
+}
+
+.aboutMe button {
+	margin-top: 1em;
+}
+
+.button {
+	cursor: pointer;
+	padding: 0.5em 1em;
+	background-color: #E2DBD5;
+	border: 0.1em solid #E2D3CD;
+	border-radius: 2em;
+}
+
+.button a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 0.9em;
+}
+
+.button:hover {
+	transform: scale(1.05);
+}
+
+.workExperience {
+	text-align: center;
+}
+
+.activities {
+	text-align: center;
+	padding-top: 3em;
+}
+
+.aboutMeHello {
+	letter-spacing: 0.25em;
+	margin-bottom: 0.5em;
+}
+
+.aboutMeName {
+	display: inline-block;
+	font-weight: bold;
+	color: #000000;
+	border-bottom: 0.15em solid #E2DBD5;
+	font-size: 2.4em;
+}
+
+.title {
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 0 0.3em;
+	margin-bottom: 0.5em;
+	font-weight: lighter;
+	letter-spacing: 0.25em;
+}
+
+.aboutMeHeadshot {
+	display: none;
+}
+
+.contactMe {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.contactTitle {
+	font-size: 0.9em;
+	letter-spacing: 0.4em;
+	margin-bottom: 1em;
+}
+
+.contactImage {
+	width: 2em;
+	height: 2em;
+	margin-right: 0.5em;
+}
+
+.contactImage:hover {
+	transform: scale(1.1);
+}
+
+.contactLine {
+	margin: 1em 0;
+	font-size: 0.8em;
+}
+
+.line {
+	margin: 2em 50% 0 50%;
+	height: 12em;
+	border-left: 0.1em solid #E2DBD5;
+}
+
+.skillsWrapper {
+	justify-content: space-between;
+	align-items: center;
+	margin: 1.5em auto 0 auto;
+}
+
+.activitiesWrapper {
+	margin: 2em auto 3em auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.activitiesTitle {
+	font-size: 1.05em;
+}
+
+.workExperienceTitle {
+	font-size: 1em;
+	margin-bottom: 1em;
+	letter-spacing: 0.25em;
+}
+
+.skillsTitle {
+	font-weight: bolder;
+	font-size: 0.7em;
+	font-family: 'Verdana';
+	padding-bottom: 0.65em;
+}
+
+.workExperienceContainer ul li {
+	margin-bottom: 0.25em;
+}
+
+.skills {
+	text-align: center;
+	padding-top: 6em;
+}
+
+.skillsBox {
+	align-items: center;
+	justify-content: center;
+	background-color: #E2DBD5;
+	width: 60%;
+	height: 10em;
+	border-radius: 0.6em;
+	box-shadow: 2px 2px 6px #B8B8B8;
+	margin-bottom: 1em;
+}
+
+.skillsLength {
+	max-width: 80%;
+}
+
+.contactContainer {
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contactContainer .yes-padding {
+	width: 2em;
+	height: 2em;
+	margin: 0 2em 3em 0;
+}
+
+.no-padding {
+	width: 2em;
+	height: 2em;
+	margin-bottom: 3em;
+}
+
+.activitiesImage1 {
+	width: 7.5em;
+	height: 2.5em;
+	margin-bottom: 1.5em;
+	top: 0.5em;
+}
+
+.activitiesImage2 {
+	width: 8em;
+	height: 2em;
+	margin-bottom: 2em;
+	top: 0.5em;
+}
+
+.activitiesImage3 {
+	width: 7em;
+	height: 2.5em;
+	margin-bottom: 1.5em;
+	top: 0.25em;
+}
+
+.activitiesContainer {
+	text-align: left;
+	border-radius: 0.8em;
+	padding: 1em 1.5em 1.5em 1.5em;
+	width: 85%;
+	box-shadow: 0px 0px 6px #B8B8B850, -0px -0px 6px #B8B8B850;
+	margin-bottom: 1.5em;
+}
+
+#interests {
+	margin-top: 5em;
+	text-align: center;
+}
+
+.interestsWrapper {
+	width: 80%;
+	margin: 0 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.interestsWrapper > * {
+	padding: 0.5em 1em; 
+	background-color: #E2DBD5;
+	border-radius: 3em;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	margin: 0 1em 1em 0;
+}
+
+.activitiesDate {
+	font-size: 0.8em;
+	margin-bottom: 1.5em;
+}
+
+.activitiesDetails {
+	margin-bottom: 2em;
+	font-size: 0.8em;
+	font-family: 'Avenir Next', Helevetica, sans-serif;
+}
+
+.workExperienceContainer {
+	width: 90%;
+	margin: 2em auto 0 auto;
+	text-align: left;
+	border-radius: 1em;
+	box-shadow: 0px 0px 6px #B8B8B850, -0px -0px 6px #B8B8B850;
+	padding: 1.5em 1.5em;
+}
+
+.workExperienceCompany {
+	width: 90%;
+	margin: 0 5%;
+}
+
+.workExperienceImage {
+	width: 40%;
+	margin: 0 0 1em 0.5em;
+}
+
+.workExperienceDetails {
+	padding: 1em 0 0 1em;
+}
+
+.workExperienceDetails li {
+	font-size: 0.8em;
+	font-family: 'Avenir Next', Helevetica, sans-serif;
+}
+
+.workExperienceLogistics {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 0.5em;
+}
+
+.workExperienceLocation, .workExperienceDate {
+	background-color: #E2DBD5;
+	padding: 0.5em 1.2em;
+	border-radius: 4em;
+	font-size: 0.7em;
+	margin-right: 1em;
+}
+
+@media only screen and (min-width: 1000px) {
+	.flex {
+		flex-direction: row;
+	}
+
+	.navBar {
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+		background-color: #FFFFFF;
+	}
+
+	#shadow {
+		display: none;
+		border: 0.0005em solid #FFFFFF;
+		box-shadow: 0px 2px 2px #B8B8B870;
+	}
+
+	.navBarHeader {
+		display: flex;
+		width: 90%;
+		height: 4em;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 5%;
+	}
+
+	nav ul > * {
+		display: inline-block;
+		margin-right: 2em;
+	}
+
+	nav ul li:last-of-type {
+		margin-right: 0;
+	}
+
+	nav ul li a, .navBarName {
+		text-decoration: none;
+		color: #000000;
+		font-size: 0.9em;
+		letter-spacing: 0.05em;
+	}
+
+	nav ul li a:hover, .navBarName:hover {
+		color: #E2DBD5;
+	}
+
+	#aboutMe {
+		position: relative;
+	}
+
+	#work-experience {
+		position: absolute;
+		bottom: 6em;
+	}
+
+	.aboutMeHeadshot {
+		display: inline-block;
+		width: 30%;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+
+	.workExperienceCompany {
+		width: 75%;
+	}
+
+	.aboutMeParagraph {
+		font-size: 1em;
+		line-height: 1.5em;
+		width: 90%;
+	}
+
+	.line {
+		margin-top: 5em;
+	}
+
+	.aboutMeIntro {
+		width: 70%;
+	}
+
+	.title {
+		font-size: 1.4em;
+		margin-bottom: 1.5em;
+	}
+
+	.workExperienceContainer {
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100%;
+		margin-top: 2em;
+ 	}
+
+	.workExperienceWrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.workExperienceDetails li {
+		font-size: 1em;
+	}
+
+	.activitiesWrapper {
+		width: 80%;
+	}
+
+	.skillsWrapper {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.skillsBox {
+		width: 23%;
+		height: 12em;
+		margin-bottom: 0;
+	}
+
+	.interestsWrapper > * {
+		padding: 0.6em 1.25em;
+		margin: 0 1.5em 0 0;
+	}
+
+	.activitiesContainer {
+		width: 30%;
+		margin-bottom: 0;
+		padding: 2.25em 2em 2.5em 2em;
+	}
+
+	.activities {
+		margin-top: 3em;
+	}
+
+	.interestsWrapper{
+		width: 60%;
+	}
+
+	.skillsText {
+		font-size: 0.9em;
+	}
+
+	.workExperienceLocation, .workExperienceDate {
+		font-size: 0.8em;
+	}
+
+	.activitiesDetails {
+		font-size: 0.9em;
+	}
+
+	.workExperienceImage {
+		width: 15%;
+		margin: 0 1.75em;
+	}
+
+	#buttonTop {
+		display: none;
+		position: fixed;
+		bottom: 0.8em;
+		right: 0.6em;
+		cursor: pointer;
+		background-color: #E2DBD5;
+		color: #000000;
+		font-size: 0.8em;
+		padding: 1em;
+		border-radius: 50%;
+	}
+
+	#buttonTop:hover {
+		transform: scale(1.1);
+	}
+}
