@@ -23,6 +23,7 @@
 .aboutMeWrapper {
 	width: 80%;
 	margin: 0 10%;
+	align-items: center;
 }
 
 .aboutMeParagraph {
