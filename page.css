@@ -462,6 +462,7 @@
 		font-size: 0.8em;
 		padding: 1em;
 		border-radius: 50%;
+		border: 0;
 	}
 
 	#buttonTop:hover {
