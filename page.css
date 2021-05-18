@@ -339,7 +339,7 @@
 		font-size: 0.9em;
 	}
 
-	nav ul li a:hover, .navBarName:hover {
+	nav ul li a:hover {
 		color: #E2DBD5;
 	}
 
